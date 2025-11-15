@@ -31,3 +31,6 @@ var calPoints = function(operations) {
     }
     return stack.reduce((a,b) => a + b, 0);
 };
+
+
+console.log(calPoints(["5", "2", "C", "D", "+"]));
